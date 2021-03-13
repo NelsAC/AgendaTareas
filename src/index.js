@@ -1,17 +1,17 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom";
+// import HookMemo from './components/06-memos/HookMemo';
+// import { Padre } from './components/07-tarea-memo/Padre';
+import TodoApp from "./components/08-useReducer/TodoApp";
+// import FormWithCustomHook from './components/02-useEffect/FormWithCustomHook';
+// import MultCustomHooks from './components/03-useFetch/MultCustomHooks';
+// import Memorize from './components/06-memos/Memorize';
+// import SimpleForm from './components/02-useEffect/SimpleForm';
+// import CounterWithCustmHook from './components/01-useState/CounterWithCustmHook';
+// import CounterApp from './components/01-useState/CounterApp';
+// import HooksApp from './HooksApp';
+import "./index.css";
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+ReactDOM.render(<TodoApp />, document.getElementById("root"));
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+// import './components/08-useReducer/intro-reducer'

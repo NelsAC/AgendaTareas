@@ -1,0 +1,28 @@
+body {
+  background-image: linear-gradient(
+    to right,
+    #eeeeee,
+    #d0d0d0,
+    #b3b3b3,
+    #979797,
+    #7c7c7c
+  );
+  color: #000;
+}
+h1 {
+  text-shadow: 2px 3px 0px #7d88c4;
+}
+p {
+  margin: 0;
+  cursor: pointer;
+}
+
+.list-group-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.complete {
+  text-decoration: line-through;
+}
