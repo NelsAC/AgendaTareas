@@ -1,12 +1,16 @@
 body {
-  background-image: linear-gradient(
+  background: #e6dada; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
     to right,
-    #eeeeee,
-    #d0d0d0,
-    #b3b3b3,
-    #979797,
-    #7c7c7c
-  );
+    #274046,
+    #e6dada
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #e6dada,
+    #274046
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   color: #000;
 }
 h1 {
@@ -17,12 +21,12 @@ p {
   cursor: pointer;
 }
 
-.list-group-item {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
 .complete {
   text-decoration: line-through;
+}
+
+
+/*ProgressTodo*/
+.progress{
+  transition: 1s .55s ease-out;
 }
